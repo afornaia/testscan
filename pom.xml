@@ -50,7 +50,7 @@
           <appendAssemblyId>false</appendAssemblyId>
           <archive>
             <manifest>
-              <mainClass>org.testscan.Main</mainClass>
+              <mainClass>org.testscan.TestScan</mainClass>
             </manifest>
           </archive>
         </configuration>
