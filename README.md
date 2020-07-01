@@ -22,7 +22,13 @@ Given a maven project dir, we can use testscan.jar to list test cases inside the
 java -jar target/testscan.jar <MAVEN_PROJECT_DIR>/src/test/java
 ```
 
-This is an output example, running the tool on this project.
+An example of running the tool on this project:
+
+```text
+java -jar target/testscan.jar ./src/test/java
+```
+
+Output:
 
 ```text
 AppTest#test0
