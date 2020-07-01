@@ -18,13 +18,13 @@ import com.github.javaparser.ast.body.MethodDeclaration;
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 
 /**
- * Look for all the java files inside a dir (i.e. src/test/java)
- * having name containing "Test". For each file, it gives
- * all the methods with the @Test annotation in this form:
+ * Look for all the java files inside a dir (e.g. src/test/java)
+ * having its name containing "Test". For each file, it gives
+ * all the methods with the @Test annotation:
  *  
  *  TestClass#testMethod
  * 
- * this can be used to run the single method with mvn test:
+ * that can be used with mvn test to run a single test case method:
  *  
  *  mvn test -Dtest=TestClass#testMethod
  */
