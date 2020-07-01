@@ -8,7 +8,7 @@ mvn test -Dtest=TestClass#testMethod
 
 ## Build
 
-This will produce a executable jar with all the dependencies.
+This will produce an executable jar with all the dependencies (*target/testscan.jar*)
 
 ```text
 mvn package
@@ -20,4 +20,16 @@ Given a maven project dir, we can use testscan.jar to list test cases inside the
 
 ```text
 java -jar target/testscan.jar <MAVEN_PROJECT_DIR>/src/test/java
+```
+
+This is an output example, running the tool on this project.
+
+```text
+AppTest#test0
+AppTest#test1
+AppTest#test2
+AppTest#shouldListTwoTestFiles
+AppTest#shouldScanTestFiles
+DummyTest#test0
+DummyTest#test1
 ```
