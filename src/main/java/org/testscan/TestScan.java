@@ -19,7 +19,7 @@ import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 
 /**
  * Look for all the java files inside a dir (e.g. src/test/java)
- * having its name containing "Test". For each file, it gives
+ * having name containing "Test". For each file, it gives
  * all the methods with the @Test annotation:
  *  
  *  TestClass#testMethod

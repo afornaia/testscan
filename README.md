@@ -1,6 +1,6 @@
 # testscan
 
-A simple @Test methods scanner based on JavaParser. It looks for all the java files inside a dir (e.g. src/test/java) having its name containing "Test" keyword. For each file, it gives all the methods with the @Test annotation: *TestClass#testMethod*. This can be used with *mvn test* to run a single test case method:
+A simple @Test methods scanner based on JavaParser. It looks for all the java files inside a dir (e.g. src/test/java) having name containing "Test" keyword. For each file, it gives all the methods with the @Test annotation: *TestClass#testMethod*. This can be used with *mvn test* to run a single test case method:
 
 ```text
 mvn test -Dtest=TestClass#testMethod
