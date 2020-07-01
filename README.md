@@ -39,3 +39,27 @@ AppTest#shouldScanTestFiles
 DummyTest#test0
 DummyTest#test1
 ```
+
+Running a single test case with mvn test:
+
+```text
+mvn test -Dtest=DummyTest#test1
+```
+
+Output:
+
+```text
+[...]
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.testscan.DummyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[...]
+```
